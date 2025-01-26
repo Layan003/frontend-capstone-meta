@@ -1,0 +1,30 @@
+section.about {
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.about img {
+    width: 30%;
+}
+.img-container {
+    position: relative;
+}
+
+.about-intro {
+    margin-right: 6rem;
+}
+.about-intro h1 {
+    margin-bottom: 1rem;
+
+}
+
+@media only screen and (max-width: 992px) {
+    section.about {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    section.about img {
+        align-self: center;
+    }
+}

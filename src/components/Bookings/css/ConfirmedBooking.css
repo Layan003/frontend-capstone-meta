@@ -1,0 +1,31 @@
+.confirmed-booking {
+    padding: 1rem 25rem;
+}
+
+.confirmed-booking h2 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.button-primary {
+    display: block;
+    padding: 0.5rem;
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 11px;
+    text-decoration: none;
+    color: black;
+    margin: 1rem auto;
+
+}
+
+.button-primary:hover {
+    background-color: #b2e1cf;
+    transition: 0.5s;
+
+}
+@media only screen and (max-width: 992px) {
+    .confirmed-booking {
+        padding: 1rem;
+    }
+}

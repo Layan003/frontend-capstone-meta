@@ -1,0 +1,51 @@
+section.hero {
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #495E56;
+    color: #F4CE14;
+}
+
+.hero-content {
+    margin-right: 6rem;
+}
+.hero-content * {
+    margin-bottom: 1rem;
+}
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    color: aliceblue;
+}
+
+.hero-content a {
+    padding: 0.5rem;
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero-content a:hover {
+    background-color: #b2e1cf;
+    transition: 0.5s;
+
+}
+
+section.hero img {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 992px) {
+    section.hero {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    section.hero img {
+        align-self: center;
+    }
+}

@@ -1,0 +1,30 @@
+footer {
+    background-color: #495E56;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 1rem 12rem;
+    grid-area: span;
+}
+
+footer ul li {
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    color: #b0e1ce;
+}
+footer ul p {
+    font-weight: 500;
+}
+@media only screen and (max-width: 992px) {
+    footer {
+        padding: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+}
